@@ -35,11 +35,11 @@ Hello
 
 - 配置客户端凭证(需与服务端一致，默认也已配置好)
 
-`echo "server_secret" > client_trust_id.txt`
+`echo '1000' > client_trust_id.txt`
 
 - 可选：通过环境变量配置 (临时生效)：
 
-`set TRUST_ID=server_secret`
+`set TRUST_ID=1000`
 
 2. 运行服务端
 默认监听 127.0.0.1:8888
